@@ -85,7 +85,7 @@ The supervised ML models substantially outperform the generic lexicon-based base
 
 ## Key Business Insights
 
-- **~78% of raw reviews are positive** — satisfied customers review more often. Businesses should actively solicit feedback from neutral/silent customers rather than relying only on organic reviews.
+- **~78% of raw reviews are positive**, indicating a strong positive-review majority in this dataset. This class imbalance should be considered when interpreting model performance.
 - **Neutral reviews are the hardest to classify** for both VADER and ML — these often contain mixed feedback (e.g. "great taste but bad packaging") and deserve manual attention from product teams.
 - **A domain-trained ML model clearly outperforms an off-the-shelf lexicon tool**, showing the value of training on your own labeled data for production use cases.
 - **Helpfulness ratio varies by sentiment**, suggesting detailed negative/neutral reviews are especially useful to other shoppers and should be surfaced, not buried.
@@ -146,4 +146,4 @@ print(prediction)  # -> ['Positive']
 
 This project was built as part of the **CodeAlpha Data Analytics Internship**, Task 4: Sentiment Analysis.
 
-**Connect:** [LinkedIn](linkedin.com/in/nandini-prajapati-it) | Tag [@CodeAlpha](https://www.linkedin.com/company/codealpha)
+**Connect:** [LinkedIn](https://linkedin.com/in/nandini-prajapati-it) | Tag [@CodeAlpha](https://www.linkedin.com/company/codealpha)
