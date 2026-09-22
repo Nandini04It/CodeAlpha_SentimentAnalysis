@@ -96,6 +96,7 @@ The supervised ML models substantially outperform the generic lexicon-based base
 
 ```
 ├── Sentiment_Analysis_Amazon_Reviews.ipynb   # Full analysis notebook (with outputs)
+├── Reviews.csv                               # Sample dataset (13MB, ~25.6K reviews)
 ├── sentiment_model.pkl                       # Trained Logistic Regression model
 ├── tfidf_vectorizer.pkl                      # Fitted TF-IDF vectorizer
 ├── images/                                   # Charts referenced in this README
