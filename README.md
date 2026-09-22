@@ -64,7 +64,7 @@ Source: [Kaggle — Amazon Fine Food Reviews](https://www.kaggle.com/datasets/sn
 
 | Model | Accuracy | Macro F1-Score |
 |---|---|---|
-| **Logistic Regression** ⭐ (Best — by Macro F1) | 0.749 | **0.621** |
+| **Logistic Regression** (Best — by Macro F1) | 0.749 | **0.621** |
 | Linear SVM (highest raw accuracy) | **0.779** | 0.617 |
 | Multinomial Naive Bayes | 0.745 | 0.432 |
 | VADER (lexicon baseline) | 0.736 | 0.468 |
