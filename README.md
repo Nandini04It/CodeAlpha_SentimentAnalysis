@@ -115,7 +115,7 @@ The supervised ML models substantially outperform the generic lexicon-based base
 ## ▶️ How to Run
 
 ```bash
-git clone https://github.com/Nandini04It/CodeAlpha_SentimentAnalysis.git
+git clone https://github.com/Nandini04It/Sentiment_Analysis.git
 cd CodeAlpha_SentimentAnalysis
 pip install pandas numpy matplotlib seaborn nltk wordcloud beautifulsoup4 lxml scikit-learn joblib
 jupyter notebook Sentiment_Analysis_Amazon_Reviews.ipynb
